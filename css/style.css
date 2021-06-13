@@ -1,0 +1,72 @@
+/************************************************
+common
+************************************************/
+
+html{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+}
+
+.stats-card{
+    border: 4px solid;
+}
+
+.stats p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.stats-value {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    margin: 0;
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+.no-gutters,
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+    padding-right: 10;
+    padding-left: 0;
+}
+
+/************************************************
+UVA
+************************************************/
+
+#uva-stats{
+    border-color: crimson;
+}
+
+#uva-logo{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: crimson;
+    text-align: center;
+}
+
+.stats p {
+    color: crimson;
+}
+
+/************************************************
+Codeforces
+************************************************/
+
+#codeforces-stats{
+    border-color: green;
+}
+
+#codeforces-logo{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: green;
+    text-align: center;
+}
+
+.stats p {
+    color: green;
+}
